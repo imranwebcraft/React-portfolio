@@ -1,14 +1,16 @@
 const Footer = () => {
 	return (
-		<div>
-			<footer class="">
-				<div class="container flex flex-col items-center justify-center p-6 mx-auto space-y-4 sm:space-y-0 sm:flex-row">
-					<p class="text-sm text-gray-400 dark:text-gray-300">
-						© Copyright 2023. All Rights Reserved.
-					</p>
-				</div>
-			</footer>
-		</div>
+		<footer>
+			<div className="flex flex-col text-center p-6">
+				<p className="text-sm text-gray-400 dark:text-gray-300">
+					Copyright&copy; 2023.All Rights Reserved.
+				</p>
+
+				<p className="text-sm text-gray-400 dark:text-gray-300">
+					Made With ❤️ By Imran
+				</p>
+			</div>
+		</footer>
 	);
 };
 

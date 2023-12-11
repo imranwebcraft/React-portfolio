@@ -89,26 +89,6 @@ const Navbar = () => {
 									Projects
 								</NavLink>
 								<NavLink
-									to={'/skills'}
-									className={({ isActive }) =>
-										isActive
-											? 'px-3 py-2 mx-3 mt-2 text-whitetransition-colors bg-purple-500 duration-300 transform rounded-md lg:mt-0 text-white'
-											: 'px-3 py-2 mx-3 mt-2 text-gray-400 transition-colors duration-300 transform rounded-md lg:mt-0 hover:bg-gray-800 hover:text-white '
-									}
-								>
-									Skills
-								</NavLink>
-								<NavLink
-									to={'/experience'}
-									className={({ isActive }) =>
-										isActive
-											? 'px-3 py-2 mx-3 mt-2 text-whitetransition-colors bg-purple-500 duration-300 transform rounded-md lg:mt-0 text-white'
-											: 'px-3 py-2 mx-3 mt-2 text-gray-400 transition-colors duration-300 transform rounded-md lg:mt-0 hover:bg-gray-800 hover:text-white '
-									}
-								>
-									Experience
-								</NavLink>
-								<NavLink
 									to={'/about'}
 									className={({ isActive }) =>
 										isActive
