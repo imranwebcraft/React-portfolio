@@ -11,15 +11,21 @@ import { RiJavascriptFill } from 'react-icons/ri';
 import { GrNode } from 'react-icons/gr';
 import { SiExpress, SiMongodb, SiTailwindcss, SiVercel } from 'react-icons/si';
 import { IoLogoFirebase } from 'react-icons/io5';
+import { GiSkills } from 'react-icons/gi';
 
 const Skills = () => {
 	return (
 		<SectionContainer>
 			{/* Section */}
-			<div className="flex justify-center">
-				<h3 className="inline-block text-xl rounded-lg text-center bg-[#7B4AE2] bg-opacity-10 text-purple-500 px-4 py-2">
-					👨‍💻 Skills
-				</h3>
+			<div className="flex justify-center mb-5">
+				<div className=" flex flex-col space-y-1">
+					<h3 className="flex justify-center items-center gap-2 text-xl rounded-lg text-center bg-[#7B4AE2] bg-opacity-5 text-purple-500 px-4 py-2">
+						<GiSkills /> Skills
+					</h3>
+					<p className="inline-block text-base text-gray-400">
+						I am striving to never stop learning and improving
+					</p>
+				</div>
 			</div>
 			<div className=" max-w-2xl mx-auto pt-5 flex gap-10 flex-wrap justify-center">
 				<div>

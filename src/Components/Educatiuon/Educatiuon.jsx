@@ -5,7 +5,7 @@ const Educatiuon = () => {
 		<SectionContainer>
 			{/* Section */}
 			<div className="flex justify-center">
-				<h3 className="inline-block text-xl rounded-lg text-center bg-[#7B4AE2] bg-opacity-10 text-purple-500 px-4 py-2">
+				<h3 className="inline-block text-xl rounded-lg text-center bg-[#7B4AE2] bg-opacity-5 text-purple-500 px-4 py-2">
 					👨‍💻 Education
 				</h3>
 			</div>
