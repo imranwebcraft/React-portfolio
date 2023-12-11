@@ -4,7 +4,7 @@ import { Outlet } from 'react-router-dom';
 
 const MainLayouyt = () => {
 	return (
-		<div className=" bg-[#011627] min-h-screen font-primary">
+		<div className=" bg-[#011627] font-secondary">
 			<Navbar></Navbar>
 			<Outlet></Outlet>
 			<Footer></Footer>

@@ -6,6 +6,7 @@ export default {
 		extend: {
 			fontFamily: {
 				primary: "'IBM Plex Mono', monospace",
+				secondary: "'Fira Code', monospace",
 			},
 		},
 	},
