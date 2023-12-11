@@ -78,7 +78,7 @@ const Navbar = () => {
 								>
 									Home
 								</NavLink>
-								<NavLink
+								{/* <NavLink
 									to={'/projects'}
 									className={({ isActive }) =>
 										isActive
@@ -117,7 +117,7 @@ const Navbar = () => {
 									}
 								>
 									About
-								</NavLink>
+								</NavLink> */}
 								<NavLink
 									to={'/contact'}
 									className={({ isActive }) =>
