@@ -78,26 +78,6 @@ const Navbar = () => {
 								>
 									Home
 								</NavLink>
-								{/* <NavLink
-									to={'/projects'}
-									className={({ isActive }) =>
-										isActive
-											? 'px-3 py-2 mx-3 mt-2 text-whitetransition-colors bg-purple-500 duration-300 transform rounded-md lg:mt-0 text-white'
-											: 'px-3 py-2 mx-3 mt-2 text-gray-400 transition-colors duration-300 transform rounded-md lg:mt-0 hover:bg-gray-800 hover:text-white'
-									}
-								>
-									Projects
-								</NavLink>
-								<NavLink
-									to={'/about'}
-									className={({ isActive }) =>
-										isActive
-											? 'px-3 py-2 mx-3 mt-2 text-whitetransition-colors bg-purple-500 duration-300 transform rounded-md lg:mt-0 text-white'
-											: 'px-3 py-2 mx-3 mt-2 text-gray-400 transition-colors duration-300 transform rounded-md lg:mt-0 hover:bg-gray-800 hover:text-white '
-									}
-								>
-									About
-								</NavLink> */}
 								<NavLink
 									to={'/contact'}
 									className={({ isActive }) =>
@@ -110,12 +90,22 @@ const Navbar = () => {
 								</NavLink>
 							</div>
 							<div className="flex items-center mt-4 lg:mt-0 space-x-2">
-								<button className="hidden  text-2xl text-gray-400  hover:text-purple-400 transition-colors duration-300 transform lg:block dark:text-gray-200">
-									<FaSquareGithub></FaSquareGithub>
-								</button>
-								<button className="hidden text-2xl text-gray-400 hover:text-purple-400 transition-colors duration-300 transform lg:block dark:text-gray-200">
+								<a
+									href="https://github.com/imranwebcraft"
+									target="_blank"
+									rel="noreferrer"
+									className="hidden text-2xl text-gray-400 hover:text-purple-400 transition-colors duration-300 transform lg:block dark:text-gray-200"
+								>
+									<FaSquareGithub />
+								</a>
+								<a
+									href="https://www.linkedin.com/in/imranwebcraft"
+									target="_blank"
+									rel="noreferrer"
+									className="hidden text-2xl text-gray-400 hover:text-purple-400 transition-colors duration-300 transform lg:block dark:text-gray-200"
+								>
 									<FaLinkedin></FaLinkedin>
-								</button>
+								</a>
 							</div>
 						</div>
 					</div>
