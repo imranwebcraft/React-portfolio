@@ -6,7 +6,12 @@ const Navbar = () => {
 	const [isOpen, setIsOpen] = useState(false);
 
 	return (
-		<div className="pt-5">
+		<div
+			data-aos="zoom-in-down"
+			data-aos-easing="ease-in-out"
+			data-aos-delay="200"
+			className="pt-5"
+		>
 			<nav
 				x-data={{ isOpen }}
 				className="relative border border-gray-600 rounded-full max-w-7xl mx-auto"

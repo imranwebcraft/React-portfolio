@@ -7,20 +7,30 @@ import shoperz from '../../assets/Images/shoperz.png';
 const Projects = () => {
 	return (
 		<SectionContainer>
-			<div className="flex justify-center mb-5">
+			<div
+				data-aos="fade-up"
+				data-aos-easing="ease-in-out"
+				data-aos-delay="500"
+				className="flex justify-center mb-5"
+			>
 				<div className=" flex flex-col space-y-1">
 					<h3 className="flex justify-center items-center gap-2 text-xl rounded-lg text-center bg-[#7B4AE2] bg-opacity-5 text-purple-500 px-4 py-2">
 						<AiOutlineFundProjectionScreen /> Projects
 					</h3>
-					<p className="inline-block text-base text-gray-400">
+					<p className="inline-block text-base text-gray-400 text-center">
 						Transforming Knowledge into Innovative Solutions
 					</p>
 				</div>
 			</div>
 
-			<div className="max-w-7xl mx-auto flex gap-10 justify-center items-center pt-5">
+			<div className="max-w-7xl mx-auto flex flex-wrap gap-10 justify-center items-center pt-5">
 				{/* One */}
-				<div className="flex flex-col justify-center items-center gap-2 h-auto">
+				<div
+					data-aos="fade-up"
+					data-aos-easing="ease-in-out"
+					data-aos-delay="400"
+					className="flex flex-col justify-center items-center gap-2 h-auto"
+				>
 					<div>
 						<img
 							className=" h-40 bg-cover bg-center rounded-md bg-purple-400 p-3"
@@ -50,7 +60,12 @@ const Projects = () => {
 					</div>
 				</div>
 				{/* Two */}
-				<div className="flex flex-col justify-center items-center gap-2 h-auto">
+				<div
+					data-aos="fade-up"
+					data-aos-easing="ease-in-out"
+					data-aos-delay="300"
+					className="flex flex-col justify-center items-center gap-2 h-auto"
+				>
 					<div>
 						<img
 							className=" h-40 bg-cover bg-center rounded-md bg-indigo-400 p-3"
@@ -60,19 +75,19 @@ const Projects = () => {
 					</div>
 					<div className=" text-gray-400 flex flex-col justify-center items-center">
 						<a
-							className=" hover:underline hover:decoration-2 hover:decoration-purple-500 decoration-2 underline underline-offset-2 transition-all duration-300  hover:underline-offset-4"
+							className=" hover:underline hover:decoration-2 hover:decoration-purple-500 decoration-2 underline underline-offset-2 transition-all duration-300  hover:underline-offset-4 hover:text-gray-300"
 							href="https://pawsgo-7d6e0.web.app"
 						>
 							Prview
 						</a>
 						<a
-							className=" hover:underline hover:decoration-2 hover:decoration-purple-500 decoration-2 underline underline-offset-2 transition-all duration-300  hover:underline-offset-4"
+							className=" hover:underline hover:decoration-2 hover:decoration-purple-500 decoration-2 underline underline-offset-2 transition-all duration-300  hover:underline-offset-4 hover:text-gray-300"
 							href="https://github.com/imranwebcraft/RideMate-Client"
 						>
 							Frontend
 						</a>
 						<a
-							className=" hover:underline hover:decoration-2 hover:decoration-purple-500 decoration-2 underline underline-offset-2 transition-all duration-300  hover:underline-offset-4"
+							className=" hover:underline hover:decoration-2 hover:decoration-purple-500 decoration-2 underline underline-offset-2 transition-all duration-300  hover:underline-offset-4 hover:text-gray-300"
 							href="https://github.com/imranwebcraft/RideMate-Server"
 						>
 							Backend
@@ -80,7 +95,12 @@ const Projects = () => {
 					</div>
 				</div>
 				{/* Three */}
-				<div className="flex flex-col justify-center items-center gap-2 h-auto">
+				<div
+					data-aos="fade-up"
+					data-aos-easing="ease-in-out"
+					data-aos-delay="200"
+					className="flex flex-col justify-center items-center gap-2 h-auto"
+				>
 					<div>
 						<img
 							className=" h-40 bg-cover bg-center rounded-md bg-sky-400 p-3"

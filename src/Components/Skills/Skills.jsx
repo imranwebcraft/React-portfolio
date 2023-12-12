@@ -17,17 +17,27 @@ const Skills = () => {
 	return (
 		<SectionContainer>
 			{/* Section */}
-			<div className="flex justify-center mb-5">
-				<div className=" flex flex-col space-y-1">
+			<div
+				data-aos="fade-up"
+				data-aos-easing="ease-in-out"
+				data-aos-delay="500"
+				className="flex justify-center mb-5"
+			>
+				<div className="flex flex-col space-y-1">
 					<h3 className="flex justify-center items-center gap-2 text-xl rounded-lg text-center bg-[#7B4AE2] bg-opacity-5 text-purple-500 px-4 py-2">
 						<GiSkills /> Skills
 					</h3>
-					<p className="inline-block text-base text-gray-400">
+					<p className="inline-block text-center text-base text-gray-400">
 						I am striving to never stop learning and improving
 					</p>
 				</div>
 			</div>
-			<div className=" max-w-2xl mx-auto pt-5 flex gap-10 flex-wrap justify-center">
+			<div
+				data-aos="fade-up"
+				data-aos-easing="ease-in-out"
+				data-aos-delay="300"
+				className=" max-w-2xl mx-auto pt-5 flex gap-10 flex-wrap justify-center"
+			>
 				<div>
 					<FaHtml5 className=" text-4xl text-purple-400 hover:-translate-y-1 transition-all duration-300"></FaHtml5>
 				</div>

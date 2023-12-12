@@ -62,7 +62,7 @@ const EncryptButton = () => {
 			}}
 			onMouseEnter={scramble}
 			onMouseLeave={stopScramble}
-			className="group relative overflow-hidden rounded-lg border-[1px] border-slate-500  px-4 py-2 font-mono font-medium uppercase text-slate-300 transition-colors hover:text-purple-300"
+			className="group relative overflow-hidden rounded-lg border-[1px] border-slate-500 px-2  lg:px-4 py-2 font-mono font-medium uppercase text-slate-300 transition-colors hover:text-purple-300"
 		>
 			<a
 				href="https://drive.google.com/uc?export=download&id=1-l9pgIgr1V1akCIxSEOgclYZdnPFMWt7"
